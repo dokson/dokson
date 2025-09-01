@@ -1,7 +1,44 @@
-## Hi there 👋
+#
 
-Welcome to my GitHub profile!
+![header](https://capsule-render.vercel.app/api?type=waving&color=61dafb&height=320&section=header&text=Alessandro%20Colace&fontSize=80&fontColor=fff&animation=fadeIn&desc=Data%20Architect&fontAlignY=40&descSize=30)
 
-💼 I’m currently working on [COalesCE](https://www.coalesce.coach)
+## 🧑🏻‍💻 About Me
 
-📫 You can reach me via [LinkedIn](https://www.linkedin.com/in/colace)
+I'm a **Data Architect** specialized in designing and scaling modern data platforms on [Google Cloud Platform](https://cloud.google.com/), and I also worked with [Databricks](https://www.databricks.com/) and [Snowflake](https://www.snowflake.com/) *(on both [Azure](https://azure.microsoft.com/) and [AWS](https://aws.amazon.com/))*.
+
+💼 Through my freelance venture, [COalesCE](https://www.coalesce.coach), I help companies drive data modernization and AI enablement. Currently, I am particularly interested in opportunities involving [Palantir Foundry](https://palantir.com/docs/foundry/).
+
+🥾 I have also had the unique challenge of managing a *shoe factory*, [Zenkis](https://www.zenkis.com.ua/) *in **Kyiv**, Ukraine (2020–2022)*, where I implemented 🏭 ***Lean Manufacturing*** principles (and I could also learn some 🪆 ***Russian***).
+
+📫 Let’s connect on [LinkedIn](https://www.linkedin.com/in/colace/)
+
+### 🏅 Certifications
+
+[![Google Cloud Certified - Professional Machine Learning Engineer](https://images.credly.com/size/110x110/images/05e71e7e-92a1-4821-8530-4176b2e3c4b4/image.png)](https://www.credly.com/org/google-cloud/badge/professional-machine-learning-engineer-certificatio)
+[![Google Cloud Certified - Professional Cloud DevOps Engineer](https://images.credly.com/size/110x110/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png)](https://www.credly.com/org/google-cloud/badge/professional-cloud-devops-engineer-certification)
+[![Google Cloud Certified - Professional Cloud Network Engineer](https://images.credly.com/size/110x110/images/08a802bf-f2fa-44fb-8110-92acf6195738/image.png)](https://www.credly.com/org/google-cloud/badge/professional-cloud-network-engineer-certification)
+<a href="https://www.credly.com/org/google-cloud/badge/professional-cloud-database-engineer-certification.2"><img src="https://images.credly.com/images/275e69a5-33a8-4d9c-bad4-2bdc0dfb7d40/image.png" alt="Google Cloud Certified - Professional Cloud Database Engineer" width="110" height="110"></a>
+<a href="https://www.6sigmastudy.com/certification/six_sigma_yellow_belt"><img src="https://www.6sigmastudy.com/Images/brand-logo/badge-SSYB.png" alt="Six Sigma Yellow Belt (SSYB™)" width="110" height="110"></a>
+
+### ✨ Interests
+
+I love anything where data can provide a competitive edge or unlock hidden insights:
+
+- 📈 [Financial Markets](https://en.wikipedia.org/wiki/Financial_market)
+- ⚽ [Fantasy Football](https://en.wikipedia.org/wiki/Fantasy_football_(association))
+- 🃏 [Poker](https://en.wikipedia.org/wiki/Poker) *(mainly [Texas Hold'em](https://en.wikipedia.org/wiki/Texas_hold_%27em) and [Omaha](https://en.wikipedia.org/wiki/Omaha_hold_%27em))*
+- 🏺 [Ancient History](https://en.wikipedia.org/wiki/Ancient_history)
+
+## 🚀 Public GitHub Projects
+
+- 🕹️ [Interactive Resume](https://github.com/dokson/interactive-resume/): My video-game like web interactive resume
+- 📊 [Hedge Fund Tracker](https://github.com/dokson/hedge-fund-tracker): Track hedge fund portfolios and investment strategies using SEC filings.
+
+## 📊 GitHub Stats
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dokson&theme=react-dark&bg_color=20232a&hide_border=true" />
+<br><br>
+<img src="https://streak-stats.demolab.com?user=dokson&theme=react&hide_border=true" alt="GitHub Streak" />
+
+<!-- Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=61dafb&height=120&section=footer" />
