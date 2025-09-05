@@ -18,6 +18,7 @@ I'm a **Data Architect** specialized in designing and scaling modern data platfo
 [![Google Cloud Certified - Professional Cloud DevOps Engineer](https://images.credly.com/size/110x110/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png)](https://www.credly.com/org/google-cloud/badge/professional-cloud-devops-engineer-certification)
 [![Google Cloud Certified - Professional Cloud Network Engineer](https://images.credly.com/size/110x110/images/08a802bf-f2fa-44fb-8110-92acf6195738/image.png)](https://www.credly.com/org/google-cloud/badge/professional-cloud-network-engineer-certification)
 <a href="https://www.credly.com/org/google-cloud/badge/professional-cloud-database-engineer-certification.2"><img src="https://images.credly.com/images/275e69a5-33a8-4d9c-bad4-2bdc0dfb7d40/image.png" alt="Google Cloud Certified - Professional Cloud Database Engineer" width="110" height="110"></a>
+[![Salesforce Certified Tableau Desktop Foundations](https://images.credly.com/size/110x110/images/ef3e7933-f1f1-4bba-9b10-f278188c72ad/image.png)](https://trailheadacademy.salesforce.com/certificate/exam-tableau-desktop-found---Analytics-101)
 <a href="https://www.6sigmastudy.com/certification/six_sigma_yellow_belt"><img src="https://www.6sigmastudy.com/Images/brand-logo/badge-SSYB.png" alt="Six Sigma Yellow Belt (SSYB™)" width="110" height="110"></a>
 
 ### ✨ Interests
