@@ -1,8 +1,6 @@
 #
 
-||
-|:--:|
-|![header](https://capsule-render.vercel.app/api?type=waving&color=20232a&height=320&section=header&text=Alessandro%20Colace&fontSize=80&fontColor=61dafb&animation=fadeIn&desc=Data%20Architect&fontAlignY=40&descSize=30)|
+![header](https://capsule-render.vercel.app/api?type=waving&color=20232a&height=320&section=header&text=Alessandro%20Colace&fontSize=80&fontColor=61dafb&animation=fadeIn&desc=Data%20Architect&fontAlignY=40&descSize=30)
 
 ## 🧑🏻‍💻 About Me
 
@@ -39,8 +37,7 @@ I love anything where data can provide a competitive edge or unlock hidden insig
 
 ## 📊 GitHub Stats
 
-||
-|:--:|
-|![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dokson&theme=react-dark&bg_color=20232a&hide_border=true)|
-|![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=dokson&theme=react&hide_border=true)|
-|![Footer](https://capsule-render.vercel.app/api?type=waving&color=61dafb&height=120&section=footer)|
+![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dokson&theme=react-dark&bg_color=20232a&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=dokson&theme=react&hide_border=true)
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=61dafb&height=120&section=footer)
