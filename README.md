@@ -37,7 +37,8 @@ I love anything where data can provide a competitive edge or unlock hidden insig
 
 ## 📊 GitHub Stats
 
-![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dokson&theme=react-dark&bg_color=20232a&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dokson&rank_icon=github&theme=react&hide_border=true)
 ![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=dokson&theme=react&hide_border=true)
+![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dokson&theme=react-dark&bg_color=20232a&hide_border=true)
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=61dafb&height=120&section=footer)
