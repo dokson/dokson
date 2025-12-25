@@ -32,12 +32,12 @@ I love anything where data can provide a competitive edge or unlock hidden insig
 
 ## 🚀 Public GitHub Projects
 
-[![My video-game like web interactive resume](https://github-readme-stats.vercel.app/api/pin/?username=dokson&repo=interactive-resume&show_owner=true&theme=react&hide_border=true&description_lines_count=2)](https://github.com/dokson/interactive-resume)
-[![Track hedge fund portfolios and investment strategies using SEC filings](https://github-readme-stats.vercel.app/api/pin/?username=dokson&repo=hedge-fund-tracker&show_owner=true&theme=react&hide_border=true&description_lines_count=2)](https://github.com/dokson/hedge-fund-tracker)
+[![My video-game like web interactive resume](https://github-readme-stats-fast.vercel.app/api/pin/?username=dokson&repo=interactive-resume&show_owner=true&theme=react&hide_border=true&description_lines_count=2)](https://github.com/dokson/interactive-resume)
+[![Track hedge fund portfolios and investment strategies using SEC filings](https://github-readme-stats-fast.vercel.app/api/pin/?username=dokson&repo=hedge-fund-tracker&show_owner=true&theme=react&hide_border=true&description_lines_count=2)](https://github.com/dokson/hedge-fund-tracker)
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dokson&rank_icon=github&theme=react&hide_border=true)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=dokson&rank_icon=github&theme=react&hide_border=true)
 ![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=dokson&theme=react&hide_border=true)
 ![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=dokson&theme=react-dark&bg_color=20232a&hide_border=true)
 
