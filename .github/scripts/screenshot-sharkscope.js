@@ -15,20 +15,6 @@ const CHART_SELECTORS = [
   'canvas',
 ];
 
-// Keywords that indicate an error/rate-limit page instead of the actual profile
-const ERROR_KEYWORDS = [
-  'search limit',
-  'searches remaining',
-  '0 searches',
-  'upgrade',
-  'subscribe',
-  'log in',
-  'login',
-  'sign in',
-  'access denied',
-  'too many requests',
-];
-
 (async () => {
   const browser = await chromium.launch({
     headless: true,
@@ -54,15 +40,6 @@ const ERROR_KEYWORDS = [
   // Extra wait for chart rendering (Highcharts is async)
   await page.waitForTimeout(5000);
 
-  // Check for error/rate-limit indicators in the page text
-  const bodyText = (await page.innerText('body').catch(() => '')).toLowerCase();
-  const matchedKeyword = ERROR_KEYWORDS.find(kw => bodyText.includes(kw));
-  if (matchedKeyword) {
-    console.error(`SharkScope error detected — page contains "${matchedKeyword}". Daily search limit may be reached.`);
-    await browser.close();
-    process.exit(1);
-  }
-
   // Try to find and screenshot the chart element
   let chartEl = null;
   for (const selector of CHART_SELECTORS) {
@@ -85,7 +62,7 @@ const ERROR_KEYWORDS = [
   }
 
   if (!chartEl) {
-    console.error('No chart element found — SharkScope may be blocking the request or the page structure has changed.');
+    console.error('No chart element found — SharkScope may be blocking the request or the daily search limit has been reached.');
     await browser.close();
     process.exit(1);
   }
