@@ -15,6 +15,20 @@ const CHART_SELECTORS = [
   'canvas',
 ];
 
+// Keywords that indicate an error/rate-limit page instead of the actual profile
+const ERROR_KEYWORDS = [
+  'search limit',
+  'searches remaining',
+  '0 searches',
+  'upgrade',
+  'subscribe',
+  'log in',
+  'login',
+  'sign in',
+  'access denied',
+  'too many requests',
+];
+
 (async () => {
   const browser = await chromium.launch({
     headless: true,
@@ -40,8 +54,14 @@ const CHART_SELECTORS = [
   // Extra wait for chart rendering (Highcharts is async)
   await page.waitForTimeout(5000);
 
-  // Ensure output directory exists
-  fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
+  // Check for error/rate-limit indicators in the page text
+  const bodyText = (await page.innerText('body').catch(() => '')).toLowerCase();
+  const matchedKeyword = ERROR_KEYWORDS.find(kw => bodyText.includes(kw));
+  if (matchedKeyword) {
+    console.error(`SharkScope error detected — page contains "${matchedKeyword}". Daily search limit may be reached.`);
+    await browser.close();
+    process.exit(1);
+  }
 
   // Try to find and screenshot the chart element
   let chartEl = null;
@@ -64,15 +84,17 @@ const CHART_SELECTORS = [
     }
   }
 
-  if (chartEl) {
-    await chartEl.screenshot({ path: OUTPUT_PATH });
-    console.log(`Screenshot saved to ${OUTPUT_PATH}`);
-  } else {
-    // Fallback: screenshot the main content area
-    console.log('No chart element found — falling back to page screenshot');
-    await page.screenshot({ path: OUTPUT_PATH, clip: { x: 0, y: 120, width: 1280, height: 600 } });
-    console.log(`Fallback screenshot saved to ${OUTPUT_PATH}`);
+  if (!chartEl) {
+    console.error('No chart element found — SharkScope may be blocking the request or the page structure has changed.');
+    await browser.close();
+    process.exit(1);
   }
+
+  // Ensure output directory exists
+  fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
+
+  await chartEl.screenshot({ path: OUTPUT_PATH });
+  console.log(`Screenshot saved to ${OUTPUT_PATH}`);
 
   await browser.close();
 })();
