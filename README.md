@@ -32,7 +32,7 @@ I love anything where data can provide a competitive edge or unlock hidden insig
 
   [![SharkScope – dOkSsOn on PokerStars.it](assets/sharkscope-graph.png)](https://www.sharkscope.com/#Player-Statistics//networks/PokerStars.it/players/dOkSsOn)
   
-  <sub>*This chart is automatically updated monthly via a [GitHub Action](.github/workflows/update-sharkscope.yml) running in this very profile repository.*</sub>
+  <sub>*This chart is updated on demand via a manually triggered [GitHub Action](.github/workflows/update-sharkscope.yml) running on a self-hosted runner on my local machine — GitHub-hosted runners can't be used here, as SharkScope enforces a free tier limit of 5 searches per day and their datacenter IPs get blocked.*</sub>
 
 ## 🚀 Public GitHub Projects
 
