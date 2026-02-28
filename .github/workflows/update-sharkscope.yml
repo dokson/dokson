@@ -1,41 +1,17 @@
 name: Update SharkScope Graph
 
 on:
-  schedule:
-    - cron: '0 6 1 * *'  # 1st of every month at 06:00 UTC
-  workflow_dispatch:       # Manual trigger from GitHub UI
+  workflow_dispatch:  # Manual trigger only
 
 jobs:
   update-graph:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: '20'
-
-      - name: Cache node_modules and Playwright browsers
-        uses: actions/cache@v5
-        id: cache-deps
-        with:
-          path: |
-            node_modules
-            ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('package.json') }}
-
-      - name: Install dependencies
-        if: steps.cache-deps.outputs.cache-hit != 'true'
-        run: npm install
-
-      - name: Install Chromium
-        if: steps.cache-deps.outputs.cache-hit != 'true'
-        run: npx playwright install chromium --with-deps
+        uses: actions/checkout@v4
 
       - name: Take SharkScope screenshot
         run: node .github/scripts/screenshot-sharkscope.js
@@ -46,6 +22,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/sharkscope-graph.png
           git diff --staged --quiet || (
-            git commit -m "chore: update SharkScope graph [skip ci]" &&
+            git commit -m "chore: update SharkScope graph" &&
             git push
           )

@@ -1,6 +1,9 @@
 {
   "name": "dokson-profile",
   "private": true,
+  "scripts": {
+    "update-graph": "node .github/scripts/screenshot-sharkscope.js && git add assets/sharkscope-graph.png && git diff --staged --quiet || git commit -m \"chore: update SharkScope graph\" && git push"
+  },
   "dependencies": {
     "playwright": "^1.50.0"
   }
