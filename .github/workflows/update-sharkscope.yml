@@ -13,15 +13,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Cache node_modules and Playwright browsers
-        uses: actions/cache@v6
+        uses: actions/cache@v4
         id: cache-deps
         with:
           path: |
