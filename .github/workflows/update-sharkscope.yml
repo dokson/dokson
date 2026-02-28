@@ -13,6 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx playwright install chromium
+
       - name: Take SharkScope screenshot
         run: node .github/scripts/screenshot-sharkscope.js
 
