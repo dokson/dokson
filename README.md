@@ -8,7 +8,11 @@ Over the years, I have designed and scaled modern data platforms on [Google Clou
 
 🥾 I have also had the unique challenge of managing a *shoe factory*, [Zenkis](https://www.zenkis.com.ua/) *in **Kyiv**, Ukraine (2020–2022)*, where I implemented 🏭 ***Lean Manufacturing*** principles (and I could also learn some 🪆 ***Russian***).
 
-📫 Let’s connect on [LinkedIn](https://www.linkedin.com/in/colace/)
+### Contacts
+
+[![Email](https://img.shields.io/badge/Email-grey?style=for-the-badge&logo=gmail)](mailto:ale.colace@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-grey?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/colace/)
+[![Website](https://img.shields.io/website?url=https://www.colace.me&style=for-the-badge)](https://www.colace.me)
 
 ### 🏅 Certifications
 
